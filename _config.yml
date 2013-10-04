@@ -1,3 +1,4 @@
 name: Home
 markdown: redcarpet
 pygments: true
+permalink: /:title
