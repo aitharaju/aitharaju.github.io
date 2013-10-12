@@ -81,7 +81,6 @@ ul.posts span {
 .site .header
 {
     text-align: center;
-    border-bottom: 1px solid #D6D3D3;
 }
 .site .header a {
   font-weight: bold;
@@ -157,6 +156,15 @@ ul.posts span {
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
     box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.seperator {
+
+width: 170px;
+margin: 40px auto;
+height: 1px;
+background: #e8e8e8;
+
 }
 
 /*****************************************************************************/
