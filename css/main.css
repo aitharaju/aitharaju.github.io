@@ -14,7 +14,9 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
+  line-height: 23px;
+  color: #4c4c4c;
   font-size: small;
   text-align: center;
 }
