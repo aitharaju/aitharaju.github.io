@@ -19,6 +19,7 @@ body {
   color: #4c4c4c;
   font-size: small;
   text-align: center;
+-webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
