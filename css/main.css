@@ -78,6 +78,12 @@ ul.posts span {
 
 }
 
+.title
+{
+    text-align: center;
+    font-size: 1.4em;
+}
+
 .site .header
 {
     text-align: center;
