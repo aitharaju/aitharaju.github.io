@@ -81,7 +81,7 @@ ul.posts span {
 .title
 {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 2.4em;
 }
 
 .site .header
@@ -100,7 +100,7 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #1A1919;
+  color: #4c4c4c;
   font-size: 1.4em;
 }
 
@@ -119,6 +119,8 @@ ul.posts span {
 
 .site .meta {
   color: #aaa;
+  text-align: center;
+  padding-top: 0.8em;
 }
 
 .site .footer {
