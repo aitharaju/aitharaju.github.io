@@ -63,8 +63,13 @@ ul.posts span {
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+
 }
 
+.site .header
+{
+    text-align: center;
+}
 .site .header a {
   font-weight: bold;
   text-decoration: none;
@@ -73,6 +78,7 @@ ul.posts span {
 .site .header h1.title {
   display: inline-block;
   margin-bottom: 2em;
+  font-size: 20px;
 }
 
 .site .header h1.title a {
@@ -121,6 +127,22 @@ ul.posts span {
 
 .site .footer .rss img {
   border: 0;
+}
+
+.cover-avatar {
+
+    width: 95px;
+    height: 95px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 400;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
 
 /*****************************************************************************/
