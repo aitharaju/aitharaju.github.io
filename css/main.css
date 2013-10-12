@@ -70,6 +70,7 @@ ul.posts span {
 {
     text-align: center;
     border-bottom: 1px solid #D6D3D3;
+    padding-bottom: 5px;
 }
 .site .header a {
   font-weight: bold;
