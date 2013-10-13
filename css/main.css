@@ -188,6 +188,12 @@ background: #e8e8e8;
   padding: 0 .4em;
 }
 
+.post
+{
+  line-height: 1.5;
+  font-size: 18px;
+}
+
 .post ul, .post ol {
   margin-left: 1.35em;
 }
