@@ -175,6 +175,13 @@ background: #e8e8e8;
 
 }
 
+.quote
+{
+    border-left: 2px solid green;
+    padding-left: 20px;
+    font-size:0.8em;
+    font-style: italic;
+}
 /*****************************************************************************/
 /*
 /* Posts
