@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 <p>
-Tint heavily relies on Resque for queuing jobs. We have around 10-15 different queues we use for various jobs. Before we used resque-pool, I wrote a shell scripts which starts the resque worker on a code deploy or a server restart. I soon ran into many issues like monitoring the workers, killing the workers etc. This made me search for a better tool and resque-pool came to my resque. Resque pool is a simple library to manage a bunch of resque workers. As listed in the README, it requires: <p>
+Tint heavily relies on Resque for queuing jobs. We use around 15 queues for various jobs. Before using resque-pool, we used a shell script which starts the resque workers on a code deploy. I soon ran into many issues like monitoring the workers, killing the workers etc. This made me search for a better tool and resque-pool came to my rescue. Resque pool is a simple library to manage a bunch of resque workers. As listed in the README, it requires: <p>
 <p><ul><li>
  A small configuration file</li>
 <li> Can be used with god to monitor the process</li>
