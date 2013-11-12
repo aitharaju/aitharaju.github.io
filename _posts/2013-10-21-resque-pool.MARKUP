@@ -12,3 +12,10 @@ Tint heavily relies on Resque for queuing jobs. We use around 15 queues for vari
 <li> Can be used with god to monitor the process</li>
 <li>Faster startup</li></ul>
 </p>
+
+<p>Installing Rails</p>
+<pre>
+<code>
+	gem 'resque-pool'
+</code>
+</pre>

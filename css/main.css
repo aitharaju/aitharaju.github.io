@@ -230,3 +230,21 @@ background: #e8e8e8;
 .post pre.terminal code {
   background-color: #333;
 }
+
+pre
+{
+margin: 16px 0;
+padding-left: 10px;
+border-left: 1px solid #EEE;
+overflow: auto;
+-webkit-font-smoothing: subpixel-antialiased;
+background: url('http://yashh.com/static/images/code.gif') 100% 0 no-repeat;
+}
+
+code {
+padding-top: 15px !important;
+font-family: "Courier New",Courier,sans-serif;
+font-size: 14px;
+color: black;
+}
+
