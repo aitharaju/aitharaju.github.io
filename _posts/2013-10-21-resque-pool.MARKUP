@@ -13,14 +13,14 @@ Tint heavily relies on Resque for queuing jobs. We use around 15 queues for vari
 <li>Faster startup</li></ul>
 </p>
 
-<p>Installing Resque-Pool</p>
+<h3>Installing Resque-Pool</h3>
 <pre>
 <code>
 	gem 'resque-pool'
 </code>
 </pre>
 
-<p>Configuration File</p>
+<h3>Configuration File</h3>
 <p>Create a config file called resque-pool.yml as shown below</p>
 <pre>
 <code>
