@@ -32,3 +32,23 @@ Tint heavily relies on Resque for queuing jobs. We use around 15 queues for vari
 		  "worker_2": 2		
 </code>
 </pre>
+<h3>Rake task config</h3>
+<p>Require the rake tasks (resque/pool/tasks) in your Rakefile, load your application environment, configure Resque as necessary, and configure resque:pool:setup to disconnect all open files and sockets in the pool manager and reconnect in the workers. </p>
+<pre>
+<code>
+require 'resque/pool/tasks'
+# this task will get called before resque:pool:setup
+# and preload the rails environment in the pool manager
+task "resque:setup" => :environment do
+  # generic worker setup, e.g. Hoptoad for failed jobs
+end
+task "resque:pool:setup" do
+  # close any sockets or files in pool manager
+  ActiveRecord::Base.connection.disconnect!
+  # and re-open them in the resque worker parent
+  Resque::Pool.after_prefork do |job|
+    ActiveRecord::Base.establish_connection
+  end
+end
+</code>
+</pre>
