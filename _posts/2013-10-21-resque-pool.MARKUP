@@ -52,3 +52,15 @@ task "resque:pool:setup" do
 end
 </code>
 </pre>
+
+<h3>Start the pool manager</h3>
+<pre><code>resque-pool --daemon --environment production
+</code></pre>
+
+<h3>Killing the resque workers</h3>
+<p> Resque pool forks several different processes for executing the workers. To kill all the workers you just need to kill the parent resque-pool process. </p>
+<pre><code>kill -9 pid
+#pid = process id of the resque pool</code></pre> 
+
+<h3>Monitoring your resque process using god</h3>
+To be continued.
