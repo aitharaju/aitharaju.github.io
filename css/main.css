@@ -242,7 +242,6 @@ background: url('http://yashh.com/static/images/code.gif') 100% 0 no-repeat;
 }
 
 code {
-padding-top: 15px !important;
 font-family: "Courier New",Courier,sans-serif;
 font-size: 16px;
 color: black;
