@@ -58,3 +58,10 @@
 	color: rgb(156, 156, 156);
 
 }
+
+.font
+{
+	font-family: 'proxima-nova',Proxima Nova,'Helvetica Neue',Helvetica,sans-serif;
+	letter-spacing:5px;
+	font-size: 17px;
+}
