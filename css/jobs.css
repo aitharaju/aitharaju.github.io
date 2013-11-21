@@ -107,13 +107,16 @@
 	letter-spacing: 5px;
 	font-size: 20px;
 	padding-top: 10px;
+	font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
 
 }
 .section-content
 {
-letter-spacing: 1px;
-font-size: 15px;
-font-weight: 200;
-padding-top: 15px;
-color: rgb(104, 104, 104);-webkit-font-smoothing: antialiased;
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: 200;
+	padding-top: 15px;
+	color: rgb(104, 104, 104);-webkit-font-smoothing: antialiased;
+	font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
+
 }
