@@ -1,0 +1,60 @@
+#hero
+{
+	width: 100%;
+	height: 300px;
+	background: url('https://s3.amazonaws.com/uploads.hipchat.com/38181/267103/Wlhv67K4JSEXn0s/team.png');
+}
+
+.logo
+{
+	height: 60px;
+	width: 100px;
+	padding-left: 60px;
+}
+
+.heading
+{
+	padding-top: 120px;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+	font-family: 'proxima-nova',Proxima Nova,'Helvetica Neue',Helvetica,sans-serif;
+	font-weight: 600;
+	letter-spacing:5px
+}
+.headerbar
+{
+	height:60px;
+}
+
+.logo-text
+{
+	height: 60px;
+	width: 60px;
+	padding-left: 80px;
+	padding-top: 6px;
+}
+
+#headertext
+{
+	padding-top: 23px;
+	font-family: 'proxima-nova',Proxima Nova,'Helvetica Neue',Helvetica,sans-serif;
+	letter-spacing:5px;
+	color: rgb(233, 102, 15);
+	font-size: 17px;
+}
+#header
+{
+	padding-top:10px;
+
+}
+
+.headerinfo
+{
+	padding-top: 25px;
+	font-family: 'proxima-nova',Proxima Nova,'Helvetica Neue',Helvetica,sans-serif;
+	letter-spacing:5px;
+	font-size: 17px;
+	color: rgb(156, 156, 156);
+
+}
