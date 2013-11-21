@@ -1,4 +1,6 @@
-
+.pure-g-r [class *="pure-u"] {
+	font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
+}
 #hero
 {
 	width: 100%;
@@ -87,7 +89,7 @@
 }
 .content
 {
-	padding-top:150px;
+	padding-top:100px;
 	margin: auto;
 }
 
@@ -102,17 +104,18 @@
 .section-heading
 {
 	font-weight: 600;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-size: 20px;
 	padding-top: 10px;
-font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
+	font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
+	padding-bottom: 20px;
 }
 .section-content
 {
 	letter-spacing: 1px;
 	font-size: 15px;
-	font-weight: 200;
 	padding-top: 15px;
 	color: rgb(104, 104, 104);-webkit-font-smoothing: antialiased;
-font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
+	font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
+	padding-bottom: 20px;
 }
