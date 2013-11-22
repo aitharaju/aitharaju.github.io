@@ -78,7 +78,7 @@
 {
 	font-family: 'proxima-nova',Proxima Nova,'Helvetica Neue',Helvetica,sans-serif;
 	letter-spacing:5px;
-	font-size: 12px;
+	font-size: 15px;
 	color
 }
 
@@ -96,7 +96,7 @@
 .section
 {
 	border-top: 2px solid rgb(213, 213, 213);;
-	width: 800px;
+	width: 1200px;
 	margin: auto;
 	padding-top: 10px;
 	padding-bottom: 80px;
