@@ -120,3 +120,13 @@
 	font-family: "ff-tisa-web-pro", "Helvetica", "Arial";
 	padding-bottom: 20px;
 }
+
+.circular
+{
+	width: 150px;
+height: 150px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+background: url(http://link-to-your/image.jpg) no-repeat;
+}
